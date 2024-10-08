@@ -12,6 +12,10 @@ unicorn = "^2.1.1"
 pytest = "^8.3.3"
 nox = "^2024.4.15"
 ruff = "^0.6.8"
+mysqlclient = "^2.2.4"
+sqlalchemy = "^2.0.35"
+python-dotenv = "^1.0.1"
+mysql-connector-python = "^9.0.0"
 
 
 [build-system]

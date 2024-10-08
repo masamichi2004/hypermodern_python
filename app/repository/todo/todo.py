@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
 
-class UserRepo(ABC):
+class TodoRepo(ABC):
     @abstractmethod
     def bulk_get(self):
         pass
@@ -11,15 +11,15 @@ class UserRepo(ABC):
         pass
 
     @abstractmethod
-    def create(self, user):
+    def create(self, todo):
+        pass
+    
+    @abstractmethod
+    def bulk_create(self, todos):
         pass
 
     @abstractmethod
-    def bulk_create(self, users):
-        pass
-
-    @abstractmethod
-    def update(self, user):
+    def update(self, todo):
         pass
 
     @abstractmethod
